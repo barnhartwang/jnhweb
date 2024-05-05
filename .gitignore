@@ -18,6 +18,9 @@ media
 # Backup files # 
 *.bak 
 
+# video file
+*.mov
+
 # Python # 
 *.py[cod] 
 
