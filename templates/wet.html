@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block page_name %}
+醫學講座
+{% endblock page_name %}
+
+{% block content %}
+    <div class="card border-primary">
+        <div class="card-header bg-primary text-center">
+            <h2>濕</h2>
+                      
+        </div>
+        <div class="card-body">
+            <div class=text-center>
+                <div>Jan 24, 2020</div>
+                <div>吳亞儒 中醫師，L.Ac.,DAOM</div>
+                <img src="{% static 'images/health/drwu.webp'%}" class="img-fluid">    
+                <p></p>
+                <div>濕是因污濁堵塞，濕有內濕外濕。本課講解濕如何形成，造成那些症狀，如何調適，如何治療</div>
+                <p></p>
+                <div class="text-center">
+                    <div class="embed-responsive embed-responsive-4by3">                           
+                        <iframe width="400" height="300" src="https://www.youtube.com/embed/-hKiDmA16dA?autoplay=1&mute=1" allowfullscreen>
+                        </iframe>                   
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+{% endblock content %}

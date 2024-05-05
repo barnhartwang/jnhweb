@@ -1,0 +1,33 @@
+{% extends 'base.html'%}
+{% load static %}
+{% block page_name%}
+公益音樂會
+{%endblock page_name%}
+
+{% block content%}
+<div class="card border-primary">
+    <div class="card-header bg-primary">
+        <h2>阿茲海默症 慈善音樂會</h2>
+    </div>    
+    <div class="card-body">        
+        <div class="row">
+            <div class="col">
+                <p>            
+                    此次“有話要說”訪問 姚若華黃惠敏和小雨點基金會創辦徐北辰關懷阿茲海默症。姚若華黃惠敏談這次阿滋海默症慈善音樂會以旋律優美、輕鬆活潑、耳熟能詳的為主。希望社會大眾共襄盛舉，正視老年失智症對人類的威脅。徐北辰談阿滋海默症慈和基金會的理念。
+                    <div class="row">
+                        <div class="col">
+                            <a href="{% url 'JHFCharityConcerts2018View'%}" class="card-link btn btn-dark m-2">詳細資料</a>                        
+                            <a href="https://www.youtube.com/watch?v=qqPVfjspgnc" target="_blank" class="card-link btn btn-dark m-2">觀看表演錄影</a> 
+                        </div>
+                    </div>
+                </p>
+            </div>
+            <div class="col">
+                <img src="{% static '/images/jhfcharityconcerts/jhfcharityconcertsmain.webp' %}" class="img-fluid">
+                
+            </div>            
+        </div>        
+    </div>
+</div>
+
+{%endblock content%}

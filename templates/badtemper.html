@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block page_name %}
+醫學講座
+{% endblock page_name %}
+
+{% block content %}
+    <div class="card border-primary">
+        <div class="card-header bg-primary text-center">
+            <h2>脾氣爆躁</h2>
+                      
+        </div>
+        <div class="card-body">
+            <div class=text-center>
+                <div>Nov 21, 2020</div>
+                <div>吳亞儒 中醫師，L.Ac.,DAOM</div>
+                <img src="{% static 'images/health/drwu.webp'%}" class="img-fluid">    
+                <p></p>
+                <div>脾氣暴躁可來自身體，激素水平，心理，修養和生活失調。本課程講述如何由身心，舒筋，疏肝，睡眠，鍛鍊，改善飲食，休息，情緒調節來改善脾氣。</div>
+                <p></p>
+                <a href="https://www.youtube.com/watch?v=gJc59D6A5EU" class="card-link btn btn-dark m-2" target="_blank">Watch Video</a>
+                <!--
+                <div class="text-center">
+                    <div class="embed-responsive embed-responsive-4by3">                           
+                        <iframe width="400" height="300" src="https://www.youtube.com/embed/gJc59D6A5EU?autoplay=1&mute=1" allowfullscreen>
+                        </iframe>                   
+                    </div>
+                </div>
+                -->
+            </div>
+            
+        </div>
+    </div>
+{% endblock content %}

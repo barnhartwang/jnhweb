@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block page_name %}
+醫學講座
+{% endblock page_name %}
+
+{% block content %}
+    <div class="card border-primary">
+        <div class="card-header bg-primary text-center">
+            <h2>中醫體質調養 A部分</h2>
+                      
+        </div>
+        <div class="card-body">
+            <div class=text-center>
+                <div>May 10, 2020</div>
+                <div>吳亞儒 中醫師，L.Ac.,DAOM</div>
+                <img src="{% static 'images/health/drwu.webp' %}" class="img-fluid">
+                <p></p>
+                <div>中醫體質調養倆單元的A部分。個體化養生 - 學會做自己健康的主人。<br>
+                    最重要不是你該如何調養，而是為什麼那樣調養。
+                </div>
+                <p></p>
+                <div class="embed-responsive embed-responsive-4by3">                           
+                    <iframe width="400" height="300" src="https://www.youtube.com/embed/TH7glZN-86M?autoplay=1&mute=1" allowfullscreen>
+                    </iframe>                   
+                </div>
+            </div>
+            <p></p>
+            <div>
+                由吳亞儒中醫師先通過健康問捲和舌的照片，
+                來判斷體質。然後在zoom meeting上匿名講解各種體質的調養方法和原理。調養方法包括艾灸，刮痧，運動及改變生活習慣。最重要不是你該如何調養，而且為什麼那樣調養。<br>   
+            </div>
+            </div>
+        </div>
+    </div>
+{% endblock content %}

@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block page_name %}
+醫學講座
+{% endblock page_name %}
+
+{% block content %}
+    <div class="card border-primary">
+        <div class="card-header bg-primary text-center">
+            <h2>睡眠</h2>
+                      
+        </div>
+        <div class="card-body">
+            <div class=text-center>
+                <div>May 31, 2020</div>
+                <div>吳亞儒 中醫師，L.Ac.,DAOM</div>
+                <img src="{% static 'images/health/drwu.webp'%}" class="img-fluid">    
+                <p></p>
+                <div>睡眠是最重要的健康補給的身體功能。在這座談中教您為何睡不好，如何依中醫和西醫的療理讓您睡飽，睡好。</div>
+                <p></p>
+                
+                <a href="https://www.youtube.com/watch?v=ihOafYdXhmc" class="card-link btn btn-dark m-2" target="_blank">Watch Video</a>
+            </div>
+            
+        </div>
+    </div>
+{% endblock content %}

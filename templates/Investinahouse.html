@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block page_name %}
+小雨點活動
+{% endblock page_name %}
+
+{% block content %}
+    <div class="card border-primary">
+        <div class="card-header bg-primary text-center">
+            <h2>投資買屋及屋主改建、加建必懂法律常識</h2>                     
+        </div>
+        <div class="card-body">
+            <div class=text-center>  
+                <div>Jun 18, 2019</div>
+                <div>Michael Lee，律師</div>  
+                <div>
+                    <img src="{% static 'images/culture/MichaelLee.webp'%}" class="img-fluid bg-dark">
+                </div>               
+                <p></p>         
+                <div>
+                    這次講座,小雨點基金會特別邀請到知名的睿騁|硅谷律師事務所Michael Lee律師和李曉薇律師為大家主講 - 在投資買房及新建、改建、加建房屋時,會面臨的各項情況及法律相關規定。
+                    睿騁|硅谷律師事務所專精處理公司成立、商業糾紛、房地產買賣/糾紛、民事訴訟、遺囑認證…等業務,客戶包括個人、本地公司商業行號或中小型美中跨國企業, 實務經驗相當豐富。
+                </div>
+                <p></p> 
+                <a href="https://youtu.be/H_3b4EJZ-w4" target="_blank" class="card-link btn btn-dark m-2">Watch Video</a>
+                <!--               
+                <iframe width="400" height="300"
+                src="https://www.youtube.com/embed/1Ii-k7jt1pM?autoplay=1&mute=1">                
+                </iframe>--> 
+            </div>
+            <p></p>
+            <div>
+                房屋買賣和地產開發有哪些須知的法律常識?<br>
+                1.房屋買賣有哪些常見的陷阱?<br>
+                2.在加州有哪些房屋產權形式以及每種形式各有哪些利弊?<br>
+                3.合夥做地產投資和開發如何才能保護自己的利益?<br>
+                4.房屋屋主是否需要做財產規劃?<br>
+                5.房屋新建、加建、改建、裝修工程中屋主如何保障自己的權益?
+            </div>
+        </div>
+    </div>
+{% endblock content %}

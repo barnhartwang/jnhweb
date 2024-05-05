@@ -1,0 +1,113 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block page_name %}
+吳玲瑤專欄
+{% endblock page_name %}
+
+{% block content %}
+    <div class="card border-primary">
+        <div class="card-header bg-primary text-white text-center">  
+            <h2>吳玲瑤女士</h2>                                          
+        </div>
+        <div class="card-body">
+            <div >
+                <div class="row">
+                    <div class="col">
+                        <div class="text-center">
+                            <img src="{% static 'images/culture/wulinyao.webp'%}" class="img-fluid">
+                        </div>                        
+                    </div>
+                    <div class="col">
+                        <div>
+                            吳玲瑤女士，西洋文學碩士， 海外華文女作家協會第十屆會長，美國暢銷幽默作家。 著有《美國孩子中國娘》、《女人的幽默》、《比佛利傳奇》、
+                            《幽默酷小子》、《不幽默也難》、《非常幽默男女》、《生活麻辣燙》等五十二本書。吳玲瑤女士的文章也常在報張雜誌上發表。 <br>
+                            吳女士的文筆以機智幽默見長，為海外最受歡迎的暢銷女作家，死忠讀者深入各階層，
+                            近年來她在美洲各城市的演講，頻頻打破當地演講會出席人數的最高、笑聲最多的紀錄。 <br>
+                            她捕捉的體裁都以海外中國人的生活感觸為主題，研究這一代海外留學生的歷史，吳女士的作品是不可或缺的資料。
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card border-primary">
+        <div class="card-header bg-primary text-white text-center">
+            <h2>對時間的困惑</h2>                              
+        </div>
+        <div class="card-body">
+            <div >
+                <div class="row">
+                    <div class="col">
+                        <div>
+                            作家吳玲瑤以幽默風趣的口吻細說時間的困惑。談笑中解讀“時間快慢是感覺? 還是有科學根據？
+                        </div>                        
+                        <div class="text-center">
+                            <a href="{% url 'ConfusionaboutTime'%}" class="card-link btn btn-dark m-2">Detail</a>
+                            <a href="https://www.youtube.com/watch?v=eTHiu5-_sfI" target="_blank" class="card-link btn btn-dark m-2">Watch Video</a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="text-center">
+                            <img src="{% static 'images/culture/ConfusionAboutTimeMain.webp'%}" class="img-fluid">
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card border-primary">
+        <div class="card-header bg-primary text-white text-center">
+            <h2>明天會更老</h2>                               
+        </div>
+        <div class="card-body">
+            <div >
+                <div class="row">
+                    <div class="col">
+                        <div>
+                            作家吳玲瑤應邀去北加州台灣大學校友會杜鵑花之夜演講，主題是人到中年後的困境，全場七百人笑聲不斷，表示有共鳴。作家吳玲瑤能開開自己年紀的玩笑，也算是一種成長後的開朗豁達。
+                        </div>
+                        <p></p>
+                        <div class="text-center">
+                            <a href="{% url 'WeWillBeOlderTomorrow'%}" class="card-link btn btn-dark m-2">Detail</a>
+                            <a href="https://www.youtube.com/watch?v=8PdP9I_q8Dw" target="_blank" class="card-link btn btn-dark m-2">Watch Video</a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="text-center">
+                            <img src="{% static 'images/culture/WeWillBeOlderTomorrowMain.webp'%}" class="img-fluid">
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card border-primary">
+        <div class="card-header bg-primary text-white text-center">
+            <h2>幽默過日子</h2>                             
+        </div>
+        <div class="card-body">
+            <div >
+                <div class="row">
+                    <div class="col">
+                        <div>
+                            小雨點基金會(J & H Foundation)於2017年6月24日(周六)主辦免費藝文講座(Art and Culture Seminar)，特別邀請到大名鼎鼎的幽黙作家吳玲瑤主講: 
+                            幽默過日子(Add More Humor To Your Life)，地點在：Cupertino Quinlan Community Center 昆蘭社區中心。「幽默過日子」分分鐘鐘讓您爆笑不停。
+                        </div>
+                        
+                        <div class="text-center">
+                            <a href="{% url 'AddMoreHumortoYourLife'%}" class="card-link btn btn-dark m-2">Detail</a>
+                            <a href="https://youtu.be/DhN5KuQDqMo" target="_blank" class="card-link btn btn-dark m-2">Watch Video</a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="text-center">
+                            <img src="{% static 'images/culture/AddMoreHumortoYourLifeMain.webp'%}" class="img-fluid">
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    
+{% endblock content%}

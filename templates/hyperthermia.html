@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block page_name %}
+醫學講座
+{% endblock page_name %}
+
+{% block content %}
+    <div class="card border-primary">
+        <div class="card-header bg-primary text-center">
+            <h2>高溫防護和中暑預防</h2>
+                      
+        </div>
+        <div class="card-body">
+            <div class=text-center>
+                <div>Aug 16, 2020</div>
+                <div>吳亞儒 中醫師，L.Ac.,DAOM</div>
+                <img src="{% static 'images/health/drwu.webp'%}" class="img-fluid">    
+                <p></p>
+                <div>了解大熱天的熱氣可以帶來的疾病(熱衰竭，熱痙攣，熱射病),和結合中西醫對中暑的防護,急救與治療。</div>
+                <p></p>
+                <a href="https://www.youtube.com/watch?v=_QQUgJkmPvw" class="card-link btn btn-dark m-2" target="_blank">Watch Video</a>
+            </div>
+            
+        </div>
+    </div>
+{% endblock content %}

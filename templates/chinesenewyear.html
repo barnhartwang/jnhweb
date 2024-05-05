@@ -1,0 +1,68 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block headerimage %}
+/static/images/home.jpg
+{% endblock headerimage%}
+{% block page_name %}
+新年活動
+{% endblock page_name %}
+
+{% block content %}
+    <div class="card border-primary">
+        <div class="card-header bg-primary text-white  text-center">
+            <h4>新年活動(2024) - 金龍迎春</h4>                      
+        </div>
+        <div class="container">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col">
+                        <h4>小雨點基金會 「金龍迎春」慶新年</h4>
+                        <p>小雨點基金會28日在庫比蒂諾昆蘭社區中心舉辦「金龍迎春」活動慶祝農曆新年，展示中華傳統琴棋書畫四藝、促進文化代際傳承。<br>
+
+                            活動現場有請到樂舞團、FASCA海外青年文化志工舞獅隊、巴洛阿圖舞鼓隊等團體表演祥獅獻瑞、歡慶大鼓、龍的傳人-鐵扇舞、廟會彩帶舞等精彩內容。還有扯鈴、少林雙刀、
+                            太極、二胡、古箏等表演。<br>
+                            
+                            現場有書法老師當場揮毫，為大家書寫春聯、福字和書籤。小朋友可以在遊藝區學畫祥龍圖案，也可以體驗扯鈴、下象棋等傳統遊戲。排隊入場的觀眾，不僅每人都可以拿到一個紅包，還有一張票可以參加抽大獎活動。<br>
+                            
+                           
+                        </p>
+                        <div class="text-center">
+                            <a href="{% url 'chinesenewyear2024'%}" class="card-link btn btn-dark m-2">詳細資料</a>
+                        </div>
+                    </div>
+                    <div class="col text-center">
+                        <img src="{% static 'images/chinesenewyear/chinesenewyear2024main.webp' %}" class="img-fluid">
+
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card border-primary">
+        <div class="card-header bg-primary text-white  text-center">
+            <h4>新年活動(2023) - 兔年春節聯歡</h4>                      
+        </div>
+        <div class="container">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col">
+                        <h4>小雨點基金會慶祝農曆新年 社區民眾參加兔年聯歡活動</h4>
+                        <p>小雨點基金會(J & H Foundation) 成立於2012 年，是美國註冊的非營利組織。基金會的宗旨是幫助社區成員過健康快樂的生活。基金會負責人徐北辰表示，
+                            經歷兩年多的新冠疫情已逐漸紓緩，新春來臨之際祝福大家兔年福氣好運，期待藉由書法老師現場揮毫寫春聯吉祥話，給予鄉親的祝福及關懷，預祝新的一年都能事事如意、
+                            身體健康，共同迎接健康、平安、歡樂的「玉兔年」。</p>
+                            
+                        <div class="col text-center">
+                            <a href="{% url 'chinesenewyear2023'%}" class="card-link btn btn-dark m-2">詳細資料</a>
+                        </div>
+                    </div>
+                    <div class="col text-center">
+                        <img src="{% static 'images/chinesenewyear/chinesenewyear2023main.JPG' %}" class="img-fluid">
+
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock content%}

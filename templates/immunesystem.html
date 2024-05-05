@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block page_name %}
+醫學講座
+{% endblock page_name %}
+
+{% block content %}
+    <div class="card border-primary">
+        <div class="card-header bg-primary text-center">
+            <h2>如何增强免疫力</h2>
+                      
+        </div>
+        <div class="card-body">
+            <div class=text-center>
+                <div>Mar 21, 2021</div>
+                <div>吳亞儒 中醫師，L.Ac.,DAOM</div>
+                <img src="{% static 'images/health/drwu.webp'%}" class="img-fluid">    
+                <p></p>
+                <div>此次講座由解釋人體的免疫系統到中醫如何提高人體的免疫和各種營養的攝取。也討論中醫的辟穀，斷食與肝臟排毒的治療和免疫系統的關係</div>
+                <p></p>
+                <a href="https://www.youtube.com/watch?v=u5IJbKtrP4c" class="card-link btn btn-dark m-2" target="_blank">Watch Video</a>
+            </div>
+            
+        </div>
+    </div>
+{% endblock content %}

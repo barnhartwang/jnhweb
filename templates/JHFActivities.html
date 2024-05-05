@@ -1,0 +1,207 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block page_name %}
+小雨點活動
+{% endblock page_name %}
+
+{% block content %}    
+    <div class="card border-primary">
+        <div class="card-header bg-primary text-white text-center">
+            <h2>遺產規劃基本問題解答</h2>                             
+        </div>
+        <div class="card-body">
+            <div >
+                <div class="row">
+                    <div class="col">
+                        <div>
+                            在美國大家可能經常會聽到生前信託(Living Trust)和遺產規劃(Estate Planning),但很多朋友其實不太了解它們的具體意義,這個講座主要是回答一些我在日常接受客戶諮詢時最常被問到有關生前信託和遺產規劃的意義。
+                        </div>
+                        <p></p>
+                        <div class="text-center">
+                            <a href="{% url 'EstatePlanning'%}" class="card-link btn btn-dark m-2">Detail</a>
+                            <a href="https://youtu.be/z_x2xnCjbAo" target="_blank" class="card-link btn btn-dark m-2">Watch Video</a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="text-center">
+                            <img src="{% static 'images/culture/EstatePlanningMain.webp'%}" class="img-fluid">
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    
+    <p></p>
+    <div class="card border-primary">
+        <div class="card-header bg-primary text-white text-center">
+            <h2>皮影戲和木版年畫</h2>                             
+        </div>
+        <div class="card-body">
+            <div >
+                <div class="row">
+                    <div class="col">
+                        <div>
+                            小雨點慈善基金會(J&H Foundation)邀請青島市民間藝術家魯漢和崔鵬到訪灣區，
+                            並於2017年9月26日在桑尼維爾的河洛醫科大學禮堂舉行製作表演。許多家長和孩子參加。小朋友也在現場把玩皮影戲偶，製作木版年畫，親身體驗中華傳統文化。<br>
+
+                            崔鵬與母親在青島開創大嘴巴皮影班，也在當地多所小學開辦皮影課。
+                            她指出皮影戲在中華文史記載中已有超過一千年的歷史。皮影戲是最不受限制的表演模式。皮影戲能在劇中殺死角色，讓人變成動物，也可輕鬆切換水陸等場景。<br>
+
+                            青島市手工藝協會會長魯漢表示，木版年畫是中國古老印刷方法。以木板刻出門神、財神、灶神等圖示再轉印到紙上。
+                            傳統時代家家戶戶都會張貼木版年畫在門口以求平安財運和事事順遂。他在現場表演示範如何製作財神木版年畫。兩位藝術家已訪問美國多個城市的學校加博物館，
+                            希望能將這兩項手工藝傳揚全美各地。
+                        </div>
+                        
+                        <div class="text-center">
+                            <a href="{% url 'ShadowPlay'%}" class="card-link btn btn-dark m-2">Detail</a>
+                            <a href="https://youtu.be/H_3b4EJZ-w4" target="_blank" class="card-link btn btn-dark m-2">Watch Video</a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="text-center">
+                            <img src="{% static 'images/culture/ShadowPlayMain.webp'%}" class="img-fluid">
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    
+    <p></p> 
+    <div class="card border-primary">
+        <div class="card-header bg-primary text-white text-center">
+            <h2>幸福家居環境能量</h2>                             
+        </div>
+        <div class="card-body">
+            <div >
+                <div class="row">
+                    <div class="col">
+                        <div>
+                            易經大師 董易林 – 生於孔孟之鄉，長在易經世家，擅長堪輿風水學、建築風水學、和命理姓名學等。「一陰一陽之謂道，百姓日用而不知」。
+                            易經存在日常生活中，並不如想像中艱難，董易林先生將以深入淺出方式為各界朋友講解易經，闡述風水、命運與您的關係。
+                        </div>
+                        
+                        <div class="text-center">
+                            <a href="{% url 'HappyLivingHome'%}" class="card-link btn btn-dark m-2">Detail</a>
+                            <a href="https://youtu.be/iLGWniFKO7k" target="_blank" class="card-link btn btn-dark m-2">Watch Video</a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="text-center">
+                            <img src="{% static 'images/culture/HappyLivingHomeMain.webp'%}" class="img-fluid">
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    
+    <p></p>
+    <div class="card border-primary">
+        <div class="card-header bg-primary text-white text-center">
+            <h2>房地產權的法律考量/Legal Considerations for Ownership of Real Estate</h2>                             
+        </div>
+        <div class="card-body">
+            <div >
+                <div class="row">
+                    <div class="col">
+                        <div>
+                            這次講座,小雨點基金會特別邀請到知名的睿騁|硅谷律師事務所Michael Lee律師和李曉薇律師為大家主講 - 在投資買房地產時,會面臨的各項情況及法律相關規定。
+                            睿騁|硅谷律師事務所專精處理公司成立、商業糾紛、房地產買賣/糾紛、民事訴訟、遺囑認證…等業務,客戶包括個人、本地公司商業行號或中小型美中跨國企業, 實務經驗相當豐富。
+                        </div>
+                        
+                        <div class="text-center">
+                            <a href="{% url 'RealEstate'%}" class="card-link btn btn-dark m-2">Detail</a>
+                            <a href="https://youtu.be/zLBN49bLYCI" target="_blank" class="card-link btn btn-dark m-2">Watch Video</a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="text-center">
+                            <img src="{% static 'images/culture/RealEstateMain.webp'%}" class="img-fluid">
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    
+    <p></p>
+    <div class="card border-primary">
+        <div class="card-header bg-primary text-white text-center">
+            <h2>茶文化 講座</h2>                             
+        </div>
+        <div class="card-body">
+            <div >
+                <div class="row">
+                    <div class="col">
+                        <div>
+                            「茶道·茶藝·茶文化 (The Tea Ceremony, Tea Art, Tea Culture)」講座訪於2017年3月19日舉行，地點在：Los Altos Library， Los Altos， CA 演講廳.，是一場難得品茗茶文化饗宴。
+                        </div>
+                        
+                        <div class="text-center">
+                            <a href="{% url 'TeaCulture'%}" class="card-link btn btn-dark m-2">Detail</a>
+                            <a href="https://youtu.be/-iba1Ue1seM" target="_blank" class="card-link btn btn-dark m-2">Watch Video</a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="text-center">
+                            <img src="{% static 'images/culture/TeaCultureMain.webp'%}" class="img-fluid">
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    
+    <p></p>
+    <div class="card border-primary">
+        <div class="card-header bg-primary text-white text-center">
+            <h2>投資買屋及屋主改建、加建必懂法律常識</h2>                             
+        </div>
+        <div class="card-body">
+            <div >
+                <div class="row">
+                    <div class="col">
+                        <div>
+                            這次講座,小雨點基金會特別邀請到知名的睿騁|硅谷律師事務所Michael Lee律師和李曉薇律師為大家主講 - 在投資買房及新建、改建、加建房屋時,會面臨的各項情況及法律相關規定。
+                            睿騁|硅谷律師事務所專精處理公司成立、商業糾紛、房地產買賣/糾紛、民事訴訟、遺囑認證…等業務,客戶包括個人、本地公司商業行號或中小型美中跨國企業, 實務經驗相當豐富。
+                        </div>
+                        
+                        <div class="text-center">
+                            <a href="{% url 'Investinahouse'%}" class="card-link btn btn-dark m-2">Detail</a>                            
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="text-center">
+                            <img src="{% static 'images/culture/InvestinahouseMain.webp'%}" class="img-fluid">
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    
+    <p></p>
+    <div class="card border-primary">
+        <div class="card-header bg-primary text-white text-center">
+            <h2>敬老聚餐</h2>                             
+        </div>
+        <div class="card-body">
+            <div >
+                <div class="row">
+                    <div class="col">
+                        <div>
+                            2013 和 2014 敬老聚餐包括壽司午餐和卡拉OK.
+                        </div>
+                        
+                        <div class="text-center">
+                            <a href="{% url 'RespecttheElderlyDinner'%}" class="card-link btn btn-dark m-2">Detail</a>
+                            <a href="https://youtu.be/dtvhLbrxQpo" target="_blank" class="card-link btn btn-dark m-2">Watch Video</a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="text-center">
+                            <img src="{% static 'images/culture/RespecttheElderlyDinnerMain.webp'%}" class="img-fluid">
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    
+{% endblock content%}

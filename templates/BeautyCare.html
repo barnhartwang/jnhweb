@@ -1,0 +1,66 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block page_name %}
+美容保養
+{% endblock page_name %}
+
+{% block content %}
+    <div class="card border-primary">
+        <div class="card-header bg-primary text-white text-center">
+            <h2>減肥</h2>
+            <div>吳亞儒 中醫師,L.Ac.,DAOM</div>
+            <div>June 21, 2020 at 4:00:00 PM</div>                                
+        </div>
+        <div class="card-body">
+            <div >
+                <div class="row">
+                    <div class="col">
+                        <div>
+                            健康是一種長期的過程。此次講座演解減肥。由中醫虛寒緊濕的醫理，由睡眠、營養、壓力和鍛練的適當程度對身體狀況的影響來了解肥胖的緣由。教您如何用飲食營養，艾灸和中藥來幫助減肥
+                        </div>
+                        
+                        <div class="text-center">
+                            <a href="{% url 'ReduceWeight'%}" class="card-link btn btn-dark m-2">Detail</a>
+                            <!--<a href="https://youtu.be/_QQUgJkmPvw" target="_blank" class="card-link btn btn-dark m-2">Watch Video</a>>-->
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="text-center">
+                            <img src="{% static 'images/health/ReduceWeightMain.webp'%}" class="img-fluid">
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card border-primary">
+        <div class="card-header bg-primary text-white text-center">
+            <h2>淘米水之養顏法</h2>
+            <div>小雨點基金會</div>
+            <div>April 21, 2021 at 12:00:00 AM</div>                                
+        </div>
+        <div class="card-body">
+            <div >
+                <div class="row">
+                    <div class="col">
+                        <div>
+                            洗過米的水含有蛋白質,澱粉,礦物質和豐富的维生素，可以使皮膚白皙,可以去除黑斑。
+                        </div>
+                        
+                        <div class="text-center">
+                            <a href="{% url 'RinsingRicesForYourBeauty'%}" class="card-link btn btn-dark m-2">Detail</a>
+                            <a href="https://www.youtube.com/watch?v=1Ii-k7jt1pM" target="_blank" class="card-link btn btn-dark m-2">Watch Video</a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="text-center">
+                            <img src="{% static 'images/health/RinsingRicesForYourBeautyMain.webp'%}" class="img-fluid">
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+       
+{% endblock content%}

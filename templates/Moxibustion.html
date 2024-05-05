@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block page_name %}
+醫學講座
+{% endblock page_name %}
+
+{% block content %}
+    <div class="card border-primary">
+        <div class="card-header bg-primary text-center">
+            <h2>艾灸療法</h2>
+                      
+        </div>
+        <div class="card-body">
+            <div class=text-center>
+                <div>May 3, 2020</div>
+                <div>吳亞儒 中醫師，L.Ac.,DAOM</div>
+                <img src="{% static 'images/health/drwu.webp'%}" class='img-fluid'>
+                <div>本課程先講述艾灸的醫療理論，艾灸的施行方法，再談和示範艾灸對23種不同病症的治療。</div>
+                <div class="text-center">
+                    <div class="embed-responsive embed-responsive-4by3">                           
+                        <iframe width="400" height="300" src="https://www.youtube.com/embed/soOFdSLZGYo?autoplay=1&mute=1" allowfullscreen>
+                        </iframe>                   
+                    </div>
+                </div>
+            </div>
+            <div>
+                艾灸療法是用各種艾灸器具，利用艾草燃燒的熱，對人體有溫陽活血通絡的作用，依據中醫經絡腧穴理論，在體表進行相應的選穴艾灸，以防治疾病的方法。
+                對風寒感冒，包括新冠狀病毒，和慢性疼痛性疾病有立竿見影的效果，並且改善虛寒體質，補脾健腎，有養生保健，預防衰老的功效。<br>
+
+                吳亞儒中醫師 親自示範，教你如何自己艾灸保健，學習艾灸這個老祖先傳承了幾千年，最簡潔實用的保健和養生延緩衰老，延年益壽的方法。<br>
+
+                吳亞儒中醫師也會教授你，對常見病如感冒，頸椎病，慢性腰痛，婦女痛經，減肥，消化不良，更年期，性能力下降以及蚊蟲叮咬等如何艾灸選穴，緩解症狀，幫助你的家人。
+            </div>
+        </div>
+    </div>
+{% endblock content %}

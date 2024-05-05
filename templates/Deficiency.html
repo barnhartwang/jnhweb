@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block page_name %}
+醫學講座
+{% endblock page_name %}
+
+{% block content %}
+    <div class="card border-primary">
+        <div class="card-header bg-primary text-center">
+            <h2>虛寒體質</h2>
+                      
+        </div>
+        <div class="card-body">
+            <div class=text-center>
+                <div>Jun 14, 2020</div>
+                <div>吳亞儒 中醫師，L.Ac.,DAOM</div>
+                <img src="{% static 'images/health/drwu.webp'%}" class="img-fluid">    
+                <p></p>
+                <div>得病是一種長期的過程:性格，壓力，情感造成身體虛寒,到身體神經的不良反應造成病態體質而至損害體質。此講座教大家一個全盤療法:由改善禮質，到改變生活習慣和態度到治療病症。</div>
+                <p></p>
+                <a href="https://www.youtube.com/watch?v=aF2gNKayABg" class="card-link btn btn-dark m-2" target="_blank">Watch Video</a>
+            </div>
+            
+        </div>
+    </div>
+{% endblock content %}

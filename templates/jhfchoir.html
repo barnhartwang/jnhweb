@@ -1,0 +1,114 @@
+{% extends 'base.html'%}
+{% load static %}
+{% block page_name%}
+合唱團
+{%endblock page_name%}
+
+{% block content%}
+<div class="text-center border-primary">
+    <h1>小雨點合唱團</h1>
+    <p> 小雨點合唱團(JHF Choir)是由小雨點基金會贊助的合唱團。合唱需要大家聚在一起，為了唱出美妙的和聲，彼此配合，互相聆聽，無形中藉由音樂的交流，
+        讓人與人 之間的距離縮短。小雨點合唱團就像一個大家庭，讓來自不同背景的團員，長期的相處， 互相關懷，給予溫暖。這一群喜歡唱歌並與社區互動的歌手們，
+        要以合唱的方式和大家分享音樂的樂趣和情感的共鳴。
+    </p>
+    <div>
+        <img src="{% static 'images/JHFChoir/JHFChoirMain.webp'%}" class="img-fluid bg-dark">
+    </div> 
+    <p></p>
+</div>
+<div class="card border-primary">
+    <div class="card-header bg-primary text-center">
+        <h2>小雨點2024演唱會</h2>
+        
+    </div>
+    <div class="card-body text-center">
+        <div>小雨點合唱團2/25開始練唱！</div>
+        <p></p>
+        <a href="{% url 'choir2024'%}" class="card-link btn btn-dark mb-2">練唱資料</a>
+    </div>
+</div>
+<p></p>
+<div class="card border-primary">
+    <div class="card-header bg-primary text-center">
+        <h2>今生今世演唱會</h2>
+    </div>
+    <div class="card-body">
+        <div class="row">        
+            <div class="col">
+                這場音樂會在許多方面都是獨特的：<br>
+                每首曲子都是由出生於台灣的著名作曲家石青如創作的歌曲。曲目包括國語、台語、客家話和英語的精彩合唱曲。
+                每首歌曲的發音、詮釋和聲部分配皆有作曲家石青如本人親自參與指導及註解，承接已逝指揮家林伯真生前的帶領詮釋,
+                與部份具有專業音樂訓練的團員,及活躍於灣區各合唱團的歌唱好手,以非傳統指揮方式攜手演出不同以往合<br>
+                表演曲目包含：
+                <ul class="list-unstyled row">
+                    <div class="col-4">
+                        <li><a class="btn btn-primary mb-1" href="https://www.youtube.com/watch?v=mQwEaiFUdXI&list=PL9JJKcfTw5085ail_9Ai8z8os_wejJQSt&index=1" target="_blank">世界恬靜落來的時</a></li>
+                        <li><a class="btn btn-primary mb-1" href="https://www.youtube.com/watch?v=Hoz1bxfAc2I&list=PL9JJKcfTw5085ail_9Ai8z8os_wejJQSt&index=2" target="_blank">百合花</a></li>
+                        <li><a class="btn btn-primary mb-1" href="https://www.youtube.com/watch?v=qgfDSfkvCYg&list=PL9JJKcfTw5085ail_9Ai8z8os_wejJQSt&index=3" target="_blank">佛手</a></li>
+                        <li><a class="btn btn-primary mb-1" href="https://www.youtube.com/watch?v=jnmH3FbcCvA&list=PL9JJKcfTw5085ail_9Ai8z8os_wejJQSt&index=4" target="_blank">墮落天使</a></li>
+                        <li><a class="btn btn-primary mb-1" href="https://www.youtube.com/watch?v=1noNXvRFwsQ&list=PL9JJKcfTw5085ail_9Ai8z8os_wejJQSt&index=5" target="_blank">流轉</a></li>
+                        <li><a class="btn btn-primary mb-1" href="https://www.youtube.com/watch?v=AdNhYAX5oHs&list=PL9JJKcfTw5085ail_9Ai8z8os_wejJQSt&index=6" target="_blank">講互暗暝聽</a></li>
+                    </div>
+                    <div class="col-4">
+                        <li><a class="btn btn-primary mb-1" href="https://www.youtube.com/watch?v=h-DolKKJl00&list=PL9JJKcfTw5085ail_9Ai8z8os_wejJQSt&index=7" target="_blank">夢見我的鏡</a></li>
+                        <li><a class="btn btn-primary mb-1" href="https://www.youtube.com/watch?v=5rS6odWoHqg&list=PL9JJKcfTw5085ail_9Ai8z8os_wejJQSt&index=8" target="_blank">傀儡戲</a></li>
+                        <li><a class="btn btn-primary mb-1" href="https://www.youtube.com/watch?v=2IvYR0rhTzA&list=PL9JJKcfTw5085ail_9Ai8z8os_wejJQSt&index=9"  target="_blank">食頭路</a></li>
+                        <li><a class="btn btn-primary mb-1" href="https://www.youtube.com/watch?v=d-RKRyaRhuY&list=PL9JJKcfTw5085ail_9Ai8z8os_wejJQSt&index=10"  target="_blank">八家將</a></li>
+                        <li><a class="btn btn-primary mb-1" href="https://www.youtube.com/watch?v=pBiYtYUpvmQ&list=PL9JJKcfTw5085ail_9Ai8z8os_wejJQSt&index=11"  target="_blank">如果明天就是下一生</a></li>
+                        <li><a class="btn btn-primary mb-1" href="https://www.youtube.com/watch?v=jD1xXgU9gGE&list=PL9JJKcfTw5085ail_9Ai8z8os_wejJQSt&index=12"  target="_blank">For Those Who Love</a></li>
+                    </div>
+                    <div class="col-4">
+                        <li><a class="btn btn-primary mb-1" href="https://www.youtube.com/watch?v=yhXFfqu3FLY&list=PL9JJKcfTw5085ail_9Ai8z8os_wejJQSt&index=13"  target="_blank">Little Station</a></li>
+                        <li><a class="btn btn-primary mb-1" href="https://www.youtube.com/watch?v=P46_sGk2lDQ&list=PL9JJKcfTw5085ail_9Ai8z8os_wejJQSt&index=14"  target="_blank">田舍臨暗</a></li>
+                        <li><a class="btn btn-primary mb-1" href="https://www.youtube.com/watch?v=JJIWhpzE5Mo&list=PL9JJKcfTw5085ail_9Ai8z8os_wejJQSt&index=15"  target="_blank">今生今世</a></li>
+                        <li><a class="btn btn-primary mb-1" href="https://www.youtube.com/watch?v=353lsHNq9jM&list=PL9JJKcfTw5085ail_9Ai8z8os_wejJQSt&index=16"  target="_blank">褒忠讚歌</a></li>
+                        <li><a class="btn btn-primary mb-1" href="https://www.youtube.com/watch?v=vfx8WxLX3Jc&list=PL9JJKcfTw5085ail_9Ai8z8os_wejJQSt&index=17"  target="_blank">烏罐仔裝豆油證</a></li>
+                        <li><a class="btn btn-primary mb-1" href="https://www.youtube.com/watch?v=9vDZiRx4vtU&list=PL9JJKcfTw5085ail_9Ai8z8os_wejJQSt&index=18"  target="_blank">如果明天就是下一生</a></li>
+                    </div>
+                </ul>
+            </div>
+            <div class="col">
+                <img src="{% static '/images/inmylifetime/inmylifetimemain.webp' %}" class="img-fluid">
+                <div class="row">
+                    <div class="col">
+                        <p></p>
+                        <a href="{% url 'inmylifetime'%}" class="card-link btn btn-dark mb-2">詳細資料</a>
+                        <a href="https://www.youtube.com/playlist?list=PL9JJKcfTw5085ail_9Ai8z8os_wejJQSt" target="_blank" class="card-link btn btn-dark mb-2">觀看表演錄影</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </div>
+</div>
+<p></p>
+<div class="card border-primary">
+    <div class="card-header bg-primary text-center">
+        <h2>For those who love</h2>
+    </div>    
+    <div class="card-body">
+        <div class="row">
+            <div class="col">
+                JHF Choir, 小雨點合唱團<br>
+                Composer：Ching-Ju Shih 石青如<br>
+                Lyrics Based on Romans 8:28<br>
+                Sponsor: J&H Foundation 小雨點基金會<br>
+                <p></p>
+                <a href="{% url 'forthosewholove'%}" class="card-link btn btn-dark m-1">詳細資料</a>
+                <a href="https://www.youtube.com/watch?v=6N3ihsJ0pjQ" target="_blank" class="card-link btn btn-dark m-1">觀看表演錄影</a> 
+            </div>
+            <div class="col">
+                <img src="{% static '/images/forthosewholove/forthosewholovemain.webp' %}" class="img-fluid">
+                
+            </div>
+        </div>       
+        
+    </div>
+</div>
+<br>
+<p>
+    指揮 林柏真 畢業於舊金山卅立大學合唱指揮碩士，是灣區著名指揮，現任博愛合唱團指揮。<br>
+    客席指揮 Michael DiGiacinto 在曼哈頓音樂學院取得碩士學位，兼具作曲，指揮及鋼琴家於一身。<br>
+</p>
+
+
+{%endblock content%}

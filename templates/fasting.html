@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block page_name %}
+醫學講座
+{% endblock page_name %}
+
+{% block content %}
+    <div class="card border-primary">
+        <div class="card-header bg-primary text-center">
+            <h2>辟穀 斷食與肝臟排毒</h2>
+                      
+        </div>
+        <div class="card-body">
+            <div class=text-center>
+                <div>Feb 28, 2021</div>
+                <div>吳亞儒 中醫師，L.Ac.,DAOM</div>
+                <img src="{% static 'images/health/drwu.webp'%}" class="img-fluid">    
+                <p></p>
+                <div>討論辟穀 斷食與肝臟排毒的異同，並介紹現代人的辟穀，斷食排毒的方法</div>
+                <p></p>
+                <a href="https://www.youtube.com/watch?v=gC9XU5Ez3fE" class="card-link btn btn-dark m-2" target="_blank">Watch Video</a>
+            </div>
+            
+        </div>
+    </div>
+{% endblock content %}

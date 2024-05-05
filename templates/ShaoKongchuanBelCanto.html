@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block page_name %}
+邵孔川美聲教學
+{% endblock page_name %}
+
+{% block content %}
+    <div class="card border-primary">
+        <div class="card-header bg-primary text-center">
+            <h2>美聲教學</h2>                     
+        </div>
+        <div class="card-body">
+            <div class=text-center>  
+                <div>Jul 12,2023</div>
+                <div>邵孔川</div>                            
+                
+                <p></p> 
+                <div class="gallery">
+                    
+                      <img src="{% static 'images/ShaoKongchuan/Vocal Class Poster enrollment.jpg' %}" alt="Cinque Terre" width="600" height="400">
+                    
+                    
+                  </div>
+                  
+                  <div class="gallery">
+                    
+                      <img src="{% static 'images/ShaoKongchuan/Vocal Class Poster master.jpg' %}" alt="Forest" width="600" height="400">
+                    
+                    
+                  </div>
+                  
+                  <div class="gallery">
+                    
+                      <img src="{% static 'images/ShaoKongchuan/Vocal Class Poster.jpg' %}" alt="Northern Lights" width="600" height="400">
+                   
+                    
+                  </div>
+                 
+            </div>            
+        </div>
+    </div>
+{% endblock content %}

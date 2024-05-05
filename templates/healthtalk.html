@@ -1,0 +1,125 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block page_name %}
+養生談
+{% endblock page_name %}
+
+{% block content %}
+    <div class="card border-primary">
+        <div class="card-header bg-primary text-white text-center">
+            <h2>便秘與排便不暢</h2>
+            <div>吳亞儒 中醫師,L.Ac.,DAOM</div>
+            <div>May 24, 2020 at 4:00:00 PM</div>                                
+        </div>
+        <div class="card-body">
+            <div >
+                <div class="row">
+                    <div class="col">
+                        <div>
+                            吃喝拉撒睡是我們的日常生活部分，同時也反映出我們健康狀態。不少朋友苦於便秘，或者有著這樣那樣的排便不暢問題。<br>
+                            吳亞儒中醫師會在這個課程中親自示範，教你通過簡單的自我拍打按摩，改變飲食習慣，檢查自己的排便習慣， 與排便狀態來相應改變和提高健康狀態。
+                        </div>
+                        <!--
+                        <div class="text-center">
+                            <a href="{% url 'constipate'%}" class="card-link btn btn-dark m-2">Detail</a>
+                            <a href="" class="card-link btn btn-dark m-2">Watch Video</a>
+                        </div>-->
+                    </div>
+                    <div class="col">
+                        <div class="text-center">
+                            <img src="{% static 'images/health/constipatemain.webp'%}" class="img-fluid">
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card border-primary">
+        <div class="card-header bg-primary text-white text-center">
+            <h2>養生粥</h2>
+            <div>小雨點基金會</div>
+            <div>May 24, 2020 at 4:00:00 PM</div>                                
+        </div>
+        <div class="card-body">
+            <div >
+                <div class="row">
+                    <div class="col">
+                        <div>
+                            教您做一過簡單的養生粥。
+                        </div>
+                        
+                        <div class="text-center">
+                            <a href="{% url 'healthporridge'%}" class="card-link btn btn-dark m-2">Detail</a>
+                            <a href="https://www.youtube.com/watch?v=sG7AZTM3Fqs" target="_blank" class="card-link btn btn-dark m-2">Watch Video</a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="text-center">
+                            <img src="{% static 'images/health/healthporridgemain.webp'%}" class="img-fluid">
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card border-primary">
+        <div class="card-header bg-primary text-white text-center">
+            <h2>夏至養心</h2>
+            <div>吳亞儒 中醫師,L.Ac.,DAOM</div>
+            <div>July 7, 2020 at 4:00:00 PM</div>                                
+        </div>
+        <div class="card-body">
+            <div >
+                <div class="row">
+                    <div class="col">
+                        <div>
+                            吳中醫師談心臟的治療和養生。由睡眠和心臟健康的關係，談如何以穴脈的按摩來治療和保健。
+                            吳中醫師也會談如何觀察手上的血管和穴脈，或觀察舌頭，肚臍診斷一個人的心臟健康和睡眠的良好度，那些徵狀是心臟損壞的特徵。因為養生比治療更重要，吳中醫師也會談如何以飲食和運動來保養心臟。
+                        </div>
+                        
+                        <div class="text-center">
+                            <a href="{% url 'NourishYourHeart'%}" class="card-link btn btn-dark m-2">Detail</a>
+                            <a href="https://www.youtube.com/watch?v=m1bvwgWtZZY" target="_blank" class="card-link btn btn-dark m-2">Watch Video</a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="text-center">
+                            <img src="{% static 'images/health/NourishYourHeartmain.webp'%}" class="img-fluid">
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card border-primary">
+        <div class="card-header bg-primary text-white text-center">
+            <h2>中醫食療</h2>
+            <div>吳亞儒 中醫師,L.Ac.,DAOM</div>
+            <div>July 26, 2020 at 4:00:00 PM</div>                                
+        </div>
+        <div class="card-body">
+            <div >
+                <div class="row">
+                    <div class="col">
+                        <div>
+                            中醫食療的訣竅 是如何通過判定個人體質，然後選擇適合自己的食療方式。<br>
+                            在這個中醫食療講座裡，有加州針灸執照的針灸師吳亞儒中醫師， 通過講解如何按照中醫觀念來判定你的體質，
+                            然後依食物的四性五味來選擇適合你的食療。只有適合你的才是最好的。食療也是如此
+                        </div>
+                        
+                        <div class="text-center">
+                            <a href="{% url 'ChineseFoodTherapeutics'%}" class="card-link btn btn-dark m-2">Detail</a>
+                            <a href="https://youtu.be/cKRzCxAKQCg" target="_blank" class="card-link btn btn-dark m-2">Watch Video</a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="text-center">
+                            <img src="{% static 'images/health/ChineseFoodTherapeuticsmain.webp'%}" class="img-fluid">
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    
+{% endblock content%}

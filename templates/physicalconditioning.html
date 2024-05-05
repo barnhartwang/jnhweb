@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block page_name %}
+醫學講座 
+{% endblock page_name %}
+
+{% block content %}
+    <div class="card border-primary">
+        <div class="card-header bg-primary text-center">
+            <h2>中醫體質調養 B部分: 問答＋八字和風水</h2>                      
+        </div>
+        <div class="card-body">
+            <div class=text-center>
+                <div>May 17, 2020</div>
+                <div>吳亞儒 中醫師，L.Ac.,DAOM</div>
+                <img src="{% static 'images/health/drwu.webp'%}" class="img-fluid">    
+                <p></p>        
+                <div>中醫體質調養倆單元的B部分。主要是 問答＋八字和風水和健康的關係。</div>
+                <p></p>
+                <div class="text-center">
+                    <div class="embed-responsive embed-responsive-4by3">                           
+                        <iframe width="400" height="300" src="https://www.youtube.com/embed/GWHmJPZqHQY?autoplay=1&mute=1" allowfullscreen>
+                        </iframe>                   
+                    </div>
+                </div>
+                <p></p>
+                <div>解釋A單元沒有解答完的中醫體質調養，包括中醫體質問卷的九種體質，還有生辰和風水。學員要問風水的將房子開門的方向，家裡的floor plan（blue print 最好，比例方向不對完全沒法推算），
+                    最少是等比例的，都發給吳醫師。<br>
+
+                    另外學員還標註房主是誰？如果是自己，要給自己的生日就夠了。如果是夫婦兩，還需要先生的生日。年和月日就可以了。不需要具體出生時間如果是父母，需要父親的生日。
+                    風水是按男主人房主來推算一家的。女主人單身的按女主人推算。還有請標註一下家裡同住的人口。父母不同住的不算。孩子離開的也算。<br>
+                    
+                    吳醫師以這些資料為學員指導體質調養的方法。
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock content %}

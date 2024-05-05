@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block page_name %}
+醫學講座
+{% endblock page_name %}
+
+{% block content %}
+    <div class="card border-primary">
+        <div class="card-header bg-primary text-center">
+            <h2>花粉過敏</h2>
+                      
+        </div>
+        <div class="card-body">
+            <div class=text-center>
+                <div>Mar 7, 2021</div>
+                <div>吳亞儒 中醫師，L.Ac.,DAOM</div>
+                <img src="{% static 'images/health/drwu.webp'%}" class="img-fluid">    
+                <p></p>
+                <div>濕由健康的四大因素和保養法則了解花粉熱和身體虛寒的關連，再由身體虚寒調理的方法談如何醫治花粉熱和過敏。</div>
+                <p></p>
+                <div class="text-center">
+                    <div class="embed-responsive embed-responsive-4by3">                           
+                        <iframe width="400" height="300" src="https://www.youtube.com/embed/E9W2Eq3hzCk?autoplay=1&mute=1" allowfullscreen>
+                        </iframe>                   
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+{% endblock content %}

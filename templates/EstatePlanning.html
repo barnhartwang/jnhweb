@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block page_name %}
+小雨點文化談
+{% endblock page_name %}
+
+{% block content %}
+    <div class="card border-primary">
+        <div class="card-header bg-primary text-center">
+            <h2>遺產規劃基本問題解答</h2>                     
+        </div>
+        <div class="card-body">
+            <div class=text-center>  
+                <div>Nov 6, 2020</div>
+                <div>李曉薇 律師，Attorney of Law</div>     
+                <div>
+                    <img src="{% static 'images/culture/AttorneyofLaw.webp'%}" class="img-fluid">
+                </div>
+                <p></p>         
+                <div>在美國大家可能經常會聽到生前信託(Living Trust)和遺產規劃(Estate Planning),但很多朋友其實不太了解它們的具體意義,這個講座主要是回答一些我在日常接受客戶諮詢時最常被問到有關生前信託和遺產規劃的意義。</div>
+                <p></p> 
+                <a href="https://youtu.be/z_x2xnCjbAo" target="_blank" class="card-link btn btn-dark m-2">Watch Video</a>
+                <!--               
+                <iframe width="400" height="300"
+                src="https://www.youtube.com/embed/1Ii-k7jt1pM?autoplay=1&mute=1">                
+                </iframe>--> 
+            </div>
+            <p></p>
+            <div>
+                李曉薇,律師(Xiaowei Li, Attorney at Law）,睿騁矽谷律師事務所 (Rui Attorneys)在這個講座討論7個常見的遺產規劃問題：
+                （1）在美國生活為什麼建立一個信託是必須的?（2） 擁有多少資產才需要建立信託?（3）信託有資產保護的作用嗎? （4）信託有省稅的功能嗎?
+                （5）信託可以更改或者撤銷嗎?（6）購買人壽保險需要建立信託嗎?（7）外國人需要可以建立信託嗎?
+            </div>
+        </div>
+    </div>
+{% endblock content %}

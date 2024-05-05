@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block page_name %}
+醫學講座
+{% endblock page_name %}
+
+{% block content %}
+    <div class="card border-primary">
+        <div class="card-header bg-primary text-center">
+            <h2>老年痴呆症 </h2>
+                      
+        </div>
+        <div class="card-body">
+            <div class=text-center>
+                <div>Oct 25, 2020</div>
+                <div>吳亞儒 中醫師，L.Ac.,DAOM</div>
+                <img src="{% static 'images/health/drwu.webp'%}" class="img-fluid">    
+                <p></p>
+                <div>世界每7秒鐘就有一位老年性痴呆症新發病例。我們一起來了解不同痴呆症的症狀，老年痴呆的十大信號，測試方法，西醫治療和中醫的診斷，預防和治療的方法</div>
+                <p></p>
+                <div class="text-center">
+                    <div class="embed-responsive embed-responsive-4by3">                           
+                        <iframe width="400" height="300" src="https://www.youtube.com/embed/MJWEWbF9h50?autoplay=1&mute=1" allowfullscreen>
+                        </iframe>                   
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+{% endblock content %}

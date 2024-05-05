@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block page_name %}
+醫學講座
+{% endblock page_name %}
+
+{% block content %}
+    <div class="card border-primary">
+        <div class="card-header bg-primary text-center">
+            <h2>醫療美容</h2>                      
+        </div>
+        <div class="card-body">
+            <div class=text-center>
+                <div>Jan 10, 2021</div>
+                <div>吳亞儒 中醫師，L.Ac.,DAOM</div>
+                <img src="{% static 'images/health/drwu.webp'%}" class="img-fulid">
+            </div>
+            <p></p>
+            <div>
+                健康就是美，身體的虛寒緊濕影響新陳代謝、修復再生和免疫力，也影響自己的容貌。
+                要美就要注意睡眠、飲食、壓力和鍛練，要注意腎、脾，肝和心肺的健康。本課由基本中醫之道談起，指出美容的禁忌：熬夜，脾胃寒，濕淤，肝緊。並告訴你如何以艾灸治療，和臉部美容的秘密。
+            </div>
+            <p></p>
+            <div class="text-center">
+                <div class="embed-responsive embed-responsive-4by3">                           
+                    <iframe width="400" height="300" src="https://www.youtube.com/embed/acItXOsxq1M?autoplay=1&mute=1" allowfullscreen>
+                    </iframe>                   
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock content %}

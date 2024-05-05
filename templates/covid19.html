@@ -1,0 +1,54 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block page_name %}
+醫學講座
+{% endblock page_name %}
+
+{% block content %}
+    <div class="card border-primary">
+        <div class="card-header bg-primary text-center">
+            <h2>新冠狀病毒中醫解讀 和居家防護與自救</h2>
+                      
+        </div>
+        <div class="card-body">
+            <div class=text-center>
+                <div>Apr 2, 2020</div>
+                <div>吳亞儒 中醫師，L.Ac.,DAOM</div>
+                <img src="{% static 'images/health/drwu.webp'%}" class="img-fluid">    
+            </div>
+            <p></p>
+            <div>   
+                <div class="row">
+                    <div class="col-3"></div>             
+                <div class="col-6">此次講座將解釋中醫如何可以幫助防禦新冠狀病毒。<br>
+
+                    讓您知道：<br>
+                    
+                    1. 新冠狀病毒的中醫認識<br>
+                    2. 如何在居家隔離期間通過自我調養，增強抵抗力，減少感染或發病機會<br>
+                    3. 萬一感染，如何在早期，通過中醫簡單的居家調理方式，來發汗祛濕，減輕發病或自救。
+                </div>
+                <div class="col-3"></div>
+            </div>
+            <p></p>
+            <div class="text-center">
+                
+                <a href="https://www.youtube.com/watch?v=CeaCEpAy4Dg" class="card-link btn btn-dark m-2" target="_blank">Watch Video</a>
+            </div>
+            <p></p>
+            <div>                              
+                疫情期間，你是否想知道：<br>
+                1. 新冠狀病毒的中醫認識<br>
+                2. 如何在居家隔離期間通過自我調養，增強抵抗力，減少感染或發病機會<br>
+                3. 萬一感染，如何在早期，通過中醫簡單的居家調理方式，來發汗祛濕，減輕發病或自救。<br>
+                
+                現在的西醫除了支持療法沒有確切的療效，而且大多數感染的人會要求自己居家隔離，醫療系統也未必能提供及時強大的有效醫療支持。<br>
+                
+                學習基本的中醫常識，可能會幫助您在疫情期間自救，並照顧有需要的家人。
+                例如中醫的清肺排毒湯，以解表，怯濕，對症醫治。拔罐刮痧可治感冒也可用於新冠狀病毒的醫治。艾灸出汗為度，濕氣重以健脾祛濕方法醫治。喉嚨痛以少商放血，局部點穴醫治。 <br>
+            </div>
+            
+        </div>
+    </div>
+{% endblock content %}
