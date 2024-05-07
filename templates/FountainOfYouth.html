@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+{% load static %}
+{% block page_name%}
+慈善音樂會
+{%endblock page_name%}
+
+{% block content%}
+<div class="card border-primary ">
+    <div class="card-header bg-primary text-center">
+        <h2>青春之泉 慈善音樂會</h2>        
+    </div>
+    <div class="card-body ">
+        <div class="text-center">
+            <div>時間 : 2/19/2023</div>
+            <div>地點 : Nov 16, 2018</div>
+            <div>Harmonious Four <br> 
+                Candra Kou (flute), Haidi Lim (violin), Cara Wang (cello), Oliver Corro (piano)</div>
+            <div>
+                <img src="{% static '/images/jhfcharityconcerts/FountainOfYouth-1.webp' %}" class="img-fluid">
+            </div>            
+        </div>
+        
+        <div >
+            這個四重奏組合於一年半多前在 Bay Philharmonic Youth Orchestra (formerly Fremont Youth Symphony Orchestra) 的音樂指揮家Judy Lam 的領導下成立。 他們小時候就在交響樂團合作過。因為都熱愛古典音樂，所以都立志通過音樂表演來服務社區。 他們在一起合作時已經公開表演過多次。 2022 年，和諧四人組在今年的青年巴赫音樂節(Junior Bach Festival) 和Newark 志願者聯盟和藝術委員會慶祝活動中演出。 在 BAMA 的美國國際公開音樂比賽中獲得第一名。 他們是 Fremont 交響樂團青年演奏家比賽的獲勝者並應邀在 2023 年東灣室內音樂節上演出。
+
+        </div>
+        <div>            
+            <div class="responsive">
+                <div class="gallery">
+                    <img src="{% static '/images/jhfcharityconcerts/fountainOfYouth-2.jpg' %}" alt="Cinque Terre" width="600" height="400">                    
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <img src="{% static '/images/jhfcharityconcerts/fountainOfYouth-3.jpg' %}" alt="Cinque Terre" width="600" height="400">                    
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <img src="{% static '/images/jhfcharityconcerts/fountainOfYouth-4.jpg' %}" alt="Cinque Terre" width="600" height="400">                    
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <img src="{% static '/images/jhfcharityconcerts/fountainOfYouth-5.jpg' %}" alt="Cinque Terre" width="600" height="400">                    
+                </div>
+            </div>            
+            <div class="clearfix"></div>
+        </div>        
+    </div>
+</div>
+{% endblock content%}

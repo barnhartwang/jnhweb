@@ -52,6 +52,12 @@ class ForThoseWhoLove(TemplateView):
         context['headerimage'] = '/static/images/jhfchoirHeader.jpg'
         return context
 
+class FountainOfYouthView(TemplateView):
+    template_name="FountainOfYouth.html"
+    def get_context_data(self,*args, **kwargs):
+        context = super(FountainOfYouthView, self).get_context_data(*args,**kwargs)
+        context['headerimage'] = '/static/images/jhfcharityconcertsheader.jpg'
+        return context
 ### Chinese New Year #### 
 class ChineseNewYear2023View(TemplateView):
     template_name="chinesenewyear2023.html"
@@ -424,6 +430,13 @@ class ShaoKongchuanBelCantoView(TemplateView):
     template_name="ShaoKongchuanBelCanto.html"
     def get_context_data(self,*args, **kwargs):
         context = super(ShaoKongchuanBelCantoView, self).get_context_data(*args,**kwargs)
+        context['headerimage'] = '/static/images/ShaoKongchuanBelCantoHader.jpg'
+        return context
+
+class ShaoFatherAndDaughterView(TemplateView) :
+    template_name="ShaoFatherAndDaughter.html"
+    def get_context_data(self,*args, **kwargs):
+        context = super(ShaoFatherAndDaughterView, self).get_context_data(*args,**kwargs)
         context['headerimage'] = '/static/images/ShaoKongchuanBelCantoHader.jpg'
         return context
 

@@ -12,7 +12,7 @@
         要以合唱的方式和大家分享音樂的樂趣和情感的共鳴。
     </p>
     <div>
-        <img src="{% static 'images/JHFChoir/JHFChoirMain.webp'%}" class="img-fluid bg-dark">
+        <!--<img src="{% static 'images/JHFChoir/JHFChoirMain.webp'%}" class="img-fluid bg-dark">-->
     </div> 
     <p></p>
 </div>
@@ -30,7 +30,7 @@
 <p></p>
 <div class="card border-primary">
     <div class="card-header bg-primary text-center">
-        <h2>今生今世演唱會</h2>
+        <h2>今生今世演唱會 2022</h2>
     </div>
     <div class="card-body">
         <div class="row">        
@@ -83,7 +83,7 @@
 <p></p>
 <div class="card border-primary">
     <div class="card-header bg-primary text-center">
-        <h2>For those who love</h2>
+        <h2>《如果明天就是下一生》 - 小雨點合唱團虛擬合唱</h2>
     </div>    
     <div class="card-body">
         <div class="row">
@@ -93,22 +93,41 @@
                 Lyrics Based on Romans 8:28<br>
                 Sponsor: J&H Foundation 小雨點基金會<br>
                 <p></p>
-                <a href="{% url 'forthosewholove'%}" class="card-link btn btn-dark m-1">詳細資料</a>
-                <a href="https://www.youtube.com/watch?v=6N3ihsJ0pjQ" target="_blank" class="card-link btn btn-dark m-1">觀看表演錄影</a> 
+                <a href="{% url 'forthosewholove'%}" class="card-link btn btn-dark m-1">詳細資料</a>                
             </div>
             <div class="col">
                 <img src="{% static '/images/forthosewholove/forthosewholovemain.webp' %}" class="img-fluid">
                 
             </div>
-        </div>       
-        
+            <!--
+            <div>
+                <iframe width="1250" height="703" src="https://www.youtube.com/embed/6N3ihsJ0pjQ" title="For Those Who Love" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>-->
+        </div> 
+        <p></p>      
+        <div class="row">
+            <div class="col-6">                                                
+                <iframe width="100%" height="100%"  class="responsive-iframe" 
+                    src="https://www.youtube.com/embed/uM7dGoNo_fs" 
+                    title="如果明天就是下一生 (If Tomorrow Is Next Life)" 
+                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                </iframe>
+                
+            </div>
+            <div class="col-6">
+                <iframe width="100%" height="360" class="responsive-iframe" 
+                    src="https://www.youtube.com/embed/6N3ihsJ0pjQ" 
+                    title="For Those Who Love" 
+                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                </iframe>
+                
+            </div>
     </div>
 </div>
-<br>
-<p>
-    指揮 林柏真 畢業於舊金山卅立大學合唱指揮碩士，是灣區著名指揮，現任博愛合唱團指揮。<br>
-    客席指揮 Michael DiGiacinto 在曼哈頓音樂學院取得碩士學位，兼具作曲，指揮及鋼琴家於一身。<br>
-</p>
+
+
 
 
 {%endblock content%}
